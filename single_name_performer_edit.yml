@@ -1,0 +1,13 @@
+name: Single Name Performer Edit
+description: Append a suffix to all single name performers
+version: 1.0
+url: https://github.com/7dJx1qP
+exec:
+  - python
+  - "{pluginDir}/single_name_performer_edit.py"
+interface: raw
+tasks:
+  - name: Update single name performers
+    description: Append a suffix to all single name performers
+    defaultArgs:
+      suffix: " *"
