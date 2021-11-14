@@ -2,6 +2,10 @@
 
 A plugin that appends a suffix to all single name performers
 
+## Requirements
+
+Python 3.6+
+
 ## Installation
 
 Put `single_name_performer_edit` in your `plugins` folder
